@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/navbar-banner.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/jeu.css" />
+    <title>Chaosmos - Jeu d'Orientation Cosmique</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="main">
+      <nav>
+        <div class="navbar container">
+          <a href="index.html">
+            <img src="../assets/images/logo-maif.jpg" alt="logo" />
+          </a>
+          <div id="nav-toggle" class="menu">
+            <div class="nav-links">
+              <a href="index.html" class="menu-item">Accueil</a>
+              <a href="index.html#programme" class="menu-item">Programme</a>
+              <a href="event2025.html" class="btn-register btn-item"
+                >Événement de 2025</a
+              >
+              <a href="equipe.html" class="btn-register btn-item">L'équipe</a>
+              <a href="../en/jeu.html" class="menu-item">
+                <img
+                  src="../assets/images/uk.svg"
+                  alt="English"
+                  style="width: 20px; height: auto"
+                />
+              </a>
+            </div>
+          </div>
+          <span onclick="toggleAction(this)" id="btn-action">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+          <span onclick="toggleAction(this)" id="btn-back">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+        </div>
+      </nav>
+
+      <div class="game-header container">
+        <h1>Jeu d'Orientation <span>Cosmique</span></h1>
+        <p>
+          Résolvez les énigmes, explorez l'exposition et remportez des prix
+          exceptionnels
+        </p>
+      </div>
+    </div>
+
+    <!-- Game Introduction -->
+    <section class="game-intro">
+      <div class="container">
+        <div class="intro-content">
+          <h2>Une aventure intellectuelle à travers le cosmos</h2>
+          <p>
+            Participez à notre jeu d'orientation exclusif qui vous emmènera
+            d'une installation à l'autre. Stimulez votre esprit et votre
+            curiosité en résolvant des énigmes qui vous rapprochent des
+            mystères de l'univers et de la complexité de la nature humaine,
+            tout en vous offrant des surprises uniques !
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Play Section -->
+    <section class="how-to-play">
+      <div class="container">
+        <h2 class="section-title">Comment participer</h2>
+        <div class="steps-container">
+          <div class="step-item">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>Inscription</h3>
+              <p>
+                Inscrivez-vous à l'accueil de l'exposition dès 10h pour recevoir votre première énigme. Premier arrivé, premier servi !
+                Les places seront limités !
+              </p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>Résolution d'énigmes</h3>
+              <p>
+                Parcourez l'exposition à la recherche d'indices. Chaque
+                installation artistique cache une nouvelle énigme vers une autre et vous rapproche de la victoire.
+              </p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>Progression</h3>
+              <p>
+                Résoudre une énigme vous conduit à l'installation suivante, où
+                une nouvelle énigme vous attend mais également un poinçon. Il nous faut des preuves !
+              </p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3>Victoire</h3>
+              <p>
+                Les participants qui résolvent toutes les énigmes dans le temps
+                imparti auront le plaisir de remporter des prix exclusifs faites par nos soins.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Game Features Section -->
+    <section class="game-features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Énigmes passionnantes</h3>
+            <p>
+              Des énigmes spécialement conçues pour tous les niveaux qui vous
+              feront réfléchir tout en vous immergant dans l'univers cosmique.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-clock"></i>
+            <h3>Course contre la montre</h3>
+            <p>
+              Vous disposez de 90 minutes pour résoudre toutes les énigmes et
+              compléter votre parcours.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-gift"></i>
+            <h3>Cadeaux exclusifs</h3>
+            <p>
+              Des récompenses uniques attendent les gagnants : chut, on ne vous en dit pas plus...
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-user-group"></i>
+            <h3>Expérience en équipe</h3>
+            <p>
+              Participez en équipe de 2 à 5 personnes pour une
+              expérience collaborative et enrichissante.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Registration Section -->
+    <section class="registration">
+      <div class="container">
+        <div class="registration-content">
+          <div class="registration-image">
+            <img
+              src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1080"
+              alt="Cosmos Game"
+            />
+          </div>
+          <div class="registration-info">
+            <h2>Places limitées !</h2>
+            <p>
+              Pour assurer une expérience optimale, le nombre de participants
+              est limité à 20 équipes. Réservation à l'accueil ouverte de 10h à 10h20.
+            </p>
+            <ul class="registration-details">
+              <li>
+                <i class="fa-solid fa-calendar"></i> Dates : le 3 avril 2026 seulement
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i> Sessions : 10h30 - 12h (90 minutes)
+              </li>
+              <li>
+                <i class="fa-solid fa-ticket"></i> Tarif : totalement gratuit
+              </li>
+              <li>
+                <i class="fa-solid fa-users"></i> Participants : équipe
+                de 2 à 5 personnes
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="about">
+      <div class="basfooter">
+        <div class="piedviolet container">
+          <p class="titlepiedviolet">Contactez-nous pour plus d'informations</p>
+          <a href="equipe.html#contact"><button id="buttonviolet">Contactez-nous</button></a>
+        </div>
+        <div class="pied container">
+          <div class="gauche">
+            <h3>CHAOSMOS</h3>
+            <p id="copy">&copy; Copyright 2025</p>
+          </div>
+          <div class="droite">
+            <a href="#">Retour en haut</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/scroll.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/popup.js"></script>
+    <script src="../js/jeu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DMSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DM Sans Bold";
+    src: url("../fonts/DMSans-Bold.ttf");
+}
+
+:root {
+    --bg-dark: #121212;
+    --bg-darker: #0a0a0a;
+    --bg-card: #1e1e24;
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --text-tertiary: rgba(255, 255, 255, 0.5);
+    --accent-color: #8B5CF6;
+    --accent-color-light: #9d78f3;
+    --border-color: #333;
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.container {
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
